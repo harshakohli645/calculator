@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3AtMzkzLWZvbi1iZy05MjYwLWYzLmpwZw.jpg');
+}
+.contaior{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56vh;
+    
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+    
+    box-shadow: -2px 4px 6px black;
+    background-color: #161A30;
+    border-radius: 20px;
+    
+    
+    
+    
+}
+.calculater{
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,80px)
+       
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+
+    border-radius: 10px;
+    margin: 10px;   
+   
+    
+    
+    border-radius: 12px ;
+    border: none;
+    background-color: #CCFFE5; 
+   
+
+}
+input[placeholder]
+{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    color: chocolate;
+}
+button{
+    height: 48px;
+    width: 60px;
+    
+    border-radius: 10px;
+    margin: 8px;
+    font-size: medium;
+    border: none;
+    box-shadow: 0px 6px 3px black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 130%;
+    
+    
+}
+button:hover{
+    color:#C69774;  
+    
+    }
+button:active {
+    background-color: cornflowerblue;
+    box-shadow: 0 6px black;
+   transform: translateY(10px);
+   }   
+.equal{
+    
+    background-color: orangered;
+    
+}
+.red{
+    background-color:#db0925;
+    border: none;
+}    
+#minus{
+    height: 110px;
+}
+#special{
+    margin-top: -50px;
+}
+@media only screen  and (max-width: 500px){
+     .contaior{
+
+        height: 45vh;
+        width: 40vh;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        margin-right: 10px;
+        
+
+        
+       
+
+        
+        
+    }
+    button{
+        width: 35px;
+        height: 35px;
+        margin: 4px;
+       
+
+    }
+    #minus{
+        height: 90px;
+    }
+    #special{
+        margin-top: -44px;
+    }
+    
+    input{
+        grid-column: span 4;
+        height: 50px;
+        width: 85%;
+    
+        border-radius: 10px;
+        margin: 4px;   
+       
+        
+        
+        border-radius: 12px ;
+        border: none;
+        background-color: #CCFFE5; 
+       
+    
+    }
+}
+    
